@@ -31,7 +31,6 @@ public class CarServices
         car.Model = dto.Model;
         car.LicensePlate = dto.LicensePlate;
         car.Year = dto.Year;
-        //car.Available = car.Available;
         return car!;
     }
     public async Task<Car> DropCar(Car car)
