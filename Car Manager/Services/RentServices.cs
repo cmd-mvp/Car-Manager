@@ -67,7 +67,6 @@ public class RentServices
             {
                 item.Status = Status.Late.ToString().ToUpper();
                 _carContext.SaveChanges();
-                return item;
             }
         }return rents;
     }
